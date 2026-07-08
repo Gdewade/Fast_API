@@ -1,46 +1,89 @@
 # ⚡ FastAPI
 
-A collection of FastAPI projects focused on building modern, scalable REST APIs using Python.
+## FastAPI • REST APIs • Backend Development
+
+This repository contains my hands-on practice and implementations using FastAPI for building modern, fast, and scalable backend APIs with Python.
 
 ## Topics Covered
 
-* FastAPI Fundamentals
-* GET, POST, PUT & DELETE APIs
-* Path Parameters
-* Query Parameters
-* Request Body Validation
-* Response Models
-* Pydantic Models
-* JSON Handling
+- FastAPI Fundamentals
+  - Application Setup
+  - Routing
+  - Path Parameters
+  - Query Parameters
 
-##  Tech Stack
+- API Development
+  - GET, POST, PUT, DELETE Requests
+  - Request & Response Handling
+  - JSON Data Handling
 
-* Python
-* FastAPI
-* Pydantic
-* Uvicorn
+- Data Validation
+  - Pydantic Models
+  - Field Validation
+  - Type Annotations
 
-##  What I Learned
+- Backend Concepts
+  - API Documentation (Swagger UI)
+  - Error Handling
+  - HTTP Status Codes
 
-* Building RESTful APIs
-* Creating CRUD operations
-* Request and response validation
-* Backend development best practices
-* Automatic API documentation using Swagger
+- Deployment Basics
+  - Uvicorn Server
+  - Environment Variables
 
-##  Real-World Applications
+## Tech Stack
 
-* Backend services for web and mobile applications
-* Authentication and user management APIs
-* E-commerce product APIs
-* Student or Employee Management Systems
-* Banking and Finance APIs
-* Healthcare Management Systems
+- Python
+- FastAPI
+- Pydantic
+- Uvicorn
+- REST API
+- Git & GitHub
 
-### Examples
+## Repository Structure
 
-* Student Management API
-* Book Store API
-* Hospital Management API
-* Task Management API
-* Inventory Management API
+## Repository Structure
+
+```text
+FastAPI/
+│
+├── Fast_API_Methods/
+│   │
+│   ├── get_method.py
+│   ├── post_method.py
+│   ├── put_method.py
+│   ├── delete_method.py
+│   │
+│   ├── get.py
+│   ├── Project_1.py
+│   │
+│   ├── Query_para.py
+│   │
+│   ├── Pydantic_simple.py
+│   ├── Pydantic_optional.py
+│   ├── Pydantic_annotated.py
+│   ├── Pydantic_type_correction.py
+│   │
+│   ├── patient.json
+│   └── students.json
+│
+├── .gitignore
+└── README.md
+```
+
+## Install Dependencies
+
+```bash
+pip install fastapi uvicorn pydantic
+```
+
+## Run Application
+
+```bash
+uvicorn Project_1:app --reload
+```
+## Author
+
+Gayatri Dewade
+
+GitHub: https://github.com/GDewade
