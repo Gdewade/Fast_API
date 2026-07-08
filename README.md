@@ -39,9 +39,7 @@ This repository contains my hands-on practice and implementations using FastAPI 
 - Uvicorn
 - REST API
 - Git & GitHub
-
-## Repository Structure
-
+  
 ## Repository Structure
 
 ```text
